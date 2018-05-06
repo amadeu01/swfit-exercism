@@ -1,1 +1,5 @@
-//Solution goes in Sources
+import Foundation
+
+class SumOfMultiples {
+    
+}
