@@ -2,5 +2,5 @@ import XCTest
 @testable import SpaceAgeTests
 
 XCTMain([
-    testCase(SpaceAgeTests.allTests),
+    testCase(SpaceAgeTests.allTests)
     ])

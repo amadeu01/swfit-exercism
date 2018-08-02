@@ -19,7 +19,7 @@ class TwoFerTests: XCTestCase {
         return [
             ("testNoNameGiven", testNoNameGiven),
             ("testANameGiven", testANameGiven),
-            ("testAnotherNameGiven", testAnotherNameGiven),
+            ("testAnotherNameGiven", testAnotherNameGiven)
         ]
     }
 }

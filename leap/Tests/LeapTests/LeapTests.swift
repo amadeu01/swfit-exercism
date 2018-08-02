@@ -28,7 +28,7 @@ class LeapTests: XCTestCase {
             ("testVanillaLeapYear", testVanillaLeapYear),
             ("testAnyOldYear", testAnyOldYear),
             ("testCentury", testCentury),
-            ("testExceptionalCentury", testExceptionalCentury),
+            ("testExceptionalCentury", testExceptionalCentury)
         ]
     }
 }

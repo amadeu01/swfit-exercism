@@ -40,7 +40,7 @@ class GigasecondTests: XCTestCase {
             ("test3 ", test3 ),
             ("testTimeWithSeconds ", testTimeWithSeconds ),
             ("testFullTimeSpecified ", testFullTimeSpecified ),
-            ("testFullTimeWithDayRollOver ", testFullTimeWithDayRollOver ),
+            ("testFullTimeWithDayRollOver ", testFullTimeWithDayRollOver )
         ]
     }
 }

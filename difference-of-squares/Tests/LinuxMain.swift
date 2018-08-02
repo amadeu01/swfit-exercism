@@ -2,5 +2,5 @@ import XCTest
 @testable import DifferenceOfSquaresTests
 
 XCTMain([
-    testCase(DifferenceOfSquaresTests.allTests),
+    testCase(DifferenceOfSquaresTests.allTests)
     ])

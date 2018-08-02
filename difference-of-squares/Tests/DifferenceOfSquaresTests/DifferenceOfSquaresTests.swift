@@ -49,7 +49,7 @@ class DifferenceOfSquaresTests: XCTestCase {
             ("testDifferenceOfSquaresOfSumsTo10", testDifferenceOfSquaresOfSumsTo10),
             ("testSquareOfSumsTo100", testSquareOfSumsTo100),
             ("testSumOfSquaresTo100", testSumOfSquaresTo100),
-            ("testDifferenceOfSquaresOfSumsTo100", testDifferenceOfSquaresOfSumsTo100),
+            ("testDifferenceOfSquaresOfSumsTo100", testDifferenceOfSquaresOfSumsTo100)
         ]
     }
 }

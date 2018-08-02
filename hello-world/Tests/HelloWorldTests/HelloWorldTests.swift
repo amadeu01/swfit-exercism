@@ -28,7 +28,7 @@ class HelloWorldTests: XCTestCase {
             ("testNoName", testNoName),
             ("testSampleName", testSampleName),
             ("testOtherSampleName", testOtherSampleName),
-            ("testNoStrangeName", testNoStrangeName),
+            ("testNoStrangeName", testNoStrangeName)
         ]
     }
 }

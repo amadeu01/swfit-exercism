@@ -10,20 +10,20 @@ class SumOfMultiples {
             if multiple == 0 {
                 return false
             }
-            
+
             if $0 == 0 {
                 return false
             }
-            
+
             if $0 > multiple {
                 return $0 % multiple == 0
             } else {
                 return multiple % $0 == 0
             }
-            
+
         }
     }
-    
+
     static func toLimit(_ limit: Int, inMultiples: [Int]) -> Int {
         let arrayOfMultiples = inMultiples.map { findMutiples(limit, for: $0) }
         let multiples = Array(Set(arrayOfMultiples.joined()))

@@ -39,7 +39,7 @@ extension Nucleotide {
             throw NucleotideError.runtimeError("Nucleodite does not exist")
         }
     }
-    
+
     func complementOfDNA() throws -> String {
         switch self {
         case .A: return "U"

@@ -64,7 +64,7 @@ class SpaceAgeTests: XCTestCase {
             ("testAgeOnJupiter", testAgeOnJupiter),
             ("testAgeOnSaturn", testAgeOnSaturn),
             ("testAgeOnUranus", testAgeOnUranus),
-            ("testAgeOnNeptune", testAgeOnNeptune),
+            ("testAgeOnNeptune", testAgeOnNeptune)
         ]
     }
 }

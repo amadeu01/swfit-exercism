@@ -1,8 +1,8 @@
 struct SpaceAge {
     static let EarthYearInSeconds = 31557600.0
-    
+
     let seconds: Double
-    
+
     init(_ seconds: Double) {
         self.seconds = seconds
     }
@@ -16,7 +16,7 @@ extension SpaceAge {
 
 extension SpaceAge {
     static let MercuryYearInEarthYears = 0.2408467
-    
+
     var onMercury: Double {
         return onEarth/SpaceAge.MercuryYearInEarthYears
     }
@@ -24,7 +24,7 @@ extension SpaceAge {
 
 extension SpaceAge {
     static let VenusYearInEarthYears = 0.61519726
-    
+
     var onVenus: Double {
         return onEarth/SpaceAge.VenusYearInEarthYears
     }
@@ -32,7 +32,7 @@ extension SpaceAge {
 
 extension SpaceAge {
     static let MarsYearInEarthYears = 1.8808158
-    
+
     var onMars: Double {
         return onEarth/SpaceAge.MarsYearInEarthYears
     }
@@ -40,7 +40,7 @@ extension SpaceAge {
 
 extension SpaceAge {
     static let JupiterYearInEarthYears = 11.862615
-    
+
     var onJupiter: Double {
         return onEarth/SpaceAge.JupiterYearInEarthYears
     }
